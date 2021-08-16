@@ -28,7 +28,6 @@ public class StringUtilTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void repetir_string_negative_times() {
-
         Assert.assertEquals("", StringUtil.repetir("hola", -1) );
 
     }
